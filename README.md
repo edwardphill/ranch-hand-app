@@ -1,6 +1,6 @@
 # Ranch Hand
 
-The farm hand... that won't run away with our daughter!
+The farm hand... that won't run away with your daughter!
 
 ## Team
 
