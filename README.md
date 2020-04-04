@@ -3,7 +3,8 @@ The farm hand... that won't run away with your daughter!
 
 ## Teesting Progress / Getting Started (WIP)
 - git clone: https://github.com/edwardphill/ranch-hand-app.git  
-```npm start```
+- ```npm init``` 
+- ```npm start```
 - go to: http://localhost:3000
 
 ## Team
