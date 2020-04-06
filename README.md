@@ -1,6 +1,11 @@
 # Ranch Hand
-
 The farm hand... that won't run away with your daughter!
+
+## Testing Express Server / Progress / Getting Started (WIP)
+- git clone: https://github.com/edwardphill/ranch-hand-app.git  
+- ```npm init``` 
+- ```npm start```
+- go to: http://localhost:3000
 
 ## Team
 
