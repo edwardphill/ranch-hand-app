@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <title>Ranch Dashboard</title>
+  </head>
+  <body>
+
+    <nav class="navbar is-success" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <h1>RanchHand</h1>
+          </a>
+  
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+  
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start"></div>
+  
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary" a href="/views/fieldDash"><strong>Fields</strong>
+                </a>
+                <a class="button is-light" href="/views/herdDash">Herds</a>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+ </nav>
+ <section class="section">
+    <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-two-thirds is-centered">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-2by1">
+            <img
+              src="https://user-images.githubusercontent.com/30938466/78699876-98307800-78d2-11ea-9c0b-f7e730cb881b.png"
+              alt="Placeholder image"
+            />
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left"></div>
+            <div class="media-content">
+              <p class="title is-4">Ranch Dashboard</p>
+              <p class="subtitle is-6">Manage My Ranch</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+        <div class="container">
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+            <article class="tile is-child box">
+                <p class="title">Manage Fields</p>
+                <p class="subtitle">Track field productivity</p>
+                <p class="subtitle">Click <a  href="/views/fieldDash">HERE</a> to visit Fields Dashboard</p>
+            </article>
+            </div>
+            <div class="tile is-parent">
+            <article class="tile is-child box">
+                <p class="title">Manage Herds</p>
+                <p class="subtitle">Track cattle rotation and data </p>
+                <p class="subtitle">Click <a  href="/views/herdDash">HERE</a> to visit Herds Dashboard</p>
+
+            </article>
+            </div>
+            <div class="tile is-parent">
+            <article class="tile is-child box">
+                <p class="title">Expenses and Farm Data</p>
+                <p class="subtitle">Track ranch KPIs</p>
+                <p class="subtitle">Click here to visit Ranch data</p>
+
+                <div class="content">
+                </div>
+            </article>
+            </div>
+        </div>
+       
+    </section>
+  </body>
+</html>

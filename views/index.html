@@ -2,55 +2,148 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ranch Hand</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
     />
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
+    <title>Home</title>
   </head>
   <body>
-    <div class="columns is-centered">
-      <div class="column is-two-thirds">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-2by1">
-              <img
-                src="https://bulma.io/images/placeholders/1280x960.png"
-                alt="Placeholder image"
-              />
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img
-                    src="https://bulma.io/images/placeholders/96x96.png"
-                    alt="Placeholder image"
-                  />
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4">John Smith</p>
-                <p class="subtitle is-6">@johnsmith</p>
-              </div>
-            </div>
 
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
-              <a href="#">#responsive</a>
-              <br />
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+    <nav class="navbar is-success" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <h1>RanchHand</h1>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start"></div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary" a href="/views/signup"><strong>Sign Up</strong>
+              </a>
+              <a class="button is-light" href="/views/login">Log in</a>
+              </a>
             </div>
           </div>
         </div>
       </div>
+    </nav>
+<!--     
+ <section class="section">
+  <div class="container">
+  <div class="columns is-centered">
+    <div class="column is-two-thirds is-centered">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-2by1">
+          <img
+            src="https://user-images.githubusercontent.com/30938466/78692194-87c6d000-78c7-11ea-9afb-c9f98d97f68a.png"
+            alt="Placeholder image"
+          />
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left"></div>
+          <div class="media-content">
+            <p class="title is-4">Ranch Dashboard</p>
+            <p class="subtitle is-6">Manage My Ranch</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+</div> -->
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="card-image">
+        <figure class="image is-250by250">
+        
+        </figure>
+      </div>
+      <h1 class="title">
+        Ranch Hand App
+      </h1>
+     
+      <h2 class="subtitle">
+       The pasture managment app for the modern farmer. This ranch hand won't run away with your daughter!
+
+      </h2>
+    </div>
+  </div>
+
+</section>
+     
+
+<section class="container">
+  <figure class="image is-3by1">
+    <img src="https://user-images.githubusercontent.com/30938466/78705205-23ae0700-78db-11ea-8bbc-365922f42467.png">
+  </figure>
+</section>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+       What Ranch Hand can do for you. 
+      </h1>
+    </div>
+  </div>
+</section>
+
+  <section class="section">
+      <div class="container">
+        
+
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                  <p class="title">Manage Fields</p>
+                  <p class="subtitle">Track field productivity</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                  <p class="title">Manage Herds</p>
+                  <p class="subtitle">Track cattle rotation and data </p>
+                  
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                  <p class="title">Expenses and Farm Data</p>
+                  <p class="subtitle">Track ranch KPIs</p>
+
+                  <div class="content">
+                  </div>
+              </article>
+            </div>
+
+        </div>
+      </div>
+  </section>
   </body>
 </html>
