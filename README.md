@@ -7,7 +7,8 @@ The farm hand... that won't run away with your daughter!
 - git clone: https://github.com/edwardphill/ranch-hand-app.git
 - `npm init`
 - `npm start`
-- go to: http://localhost:3000
+- `npm nodemon`
+- go to: http://localhost:8081
 
 ## Team
 
