@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <title>Farm Admin Dashboard</title>
+</head>
+<body>
+
+      <nav class="navbar is-success" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" a href="/views/ranchDash">
+              <h1>RanchHand</h1>
+            </a>
+    
+            <a
+              role="button"
+              class="navbar-burger burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+    
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start"></div>
+    
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-primary" a href="/views/ranchDash"><strong>Ranch Dashboard</strong>
+                  </a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      
+    <section class="container">
+      <section class="hero">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Ranch Manager Dashboard
+            </h1>
+            <h2 class="subtitle">
+              Ranch overview. 
+            </h2>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <section class="container">
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child notification is-primary">
+                    <p class="title">Total Cattle</p>
+                    <p class="subtitle">Herds: 2</p>
+                    <p class="subtitle">Cattle: 124</p>
+                    <p class="subtitle">Units: 62</p>
+                  </article>
+                  <article class="tile is-child notification is-warning">
+                    <p class="title">Pasture Overview </p>
+                    <p class="subtitle">Total Acreage: 800</p>
+                    <p class="subtitle">Total graxing pasture </p>
+                    <p class="subtitle">Total lots: 15</p>
+
+
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child notification is-info">
+                    <p class="title">Hay Bales per Field</p>
+                    <p class="subtitle">With a chart</p>
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/640x480.png">
+                    </figure>
+                  </article>
+                </div>
+              </div>
+    </section>
+</body>
+</html>

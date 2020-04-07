@@ -20,6 +20,9 @@ function handleRequest(req, res) {
     case "/views/herdDash":
     case "/views/fieldCard":
     case "/views/herdCard":
+    case "/views/adminDash":
+    case "/views/addHerd":
+    case "/views/addField":
       return renderHTML(path + ".html", res);
 
     default:
