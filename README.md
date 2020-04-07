@@ -10,6 +10,8 @@ The farm hand... that won't run away with your daughter!
 - `npm nodemon`
 - go to: http://localhost:8081
 
+![Gif of app](https://media.giphy.com/media/KeWkFRJmEcheGCHBzr/giphy.gif)
+
 ## Team
 
 - [@awdmcguinness](https://github.com/awdmcguinness)
