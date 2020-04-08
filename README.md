@@ -23,11 +23,11 @@ The farm hand... that won't run away with your daughter!
 - track key data points on your herd for medical and grazing use
 - track expenses for you ranch managment
 
-# Built With
+## Built With
 
 - React
 - MongoDB
-- Semantic UI
+- Bulma
 
 ## Wireframe
 
